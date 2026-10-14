@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriela Fotografías</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <h1>Gabriela Fotografías</h1>
+    <p>Capturando momentos únicos</p>
+</header>
+    <nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Servicios</a></li>
+        <li><a href="#resenas">Reseñas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+      <main>
+    <section id="inicio">
+        <h2>Bienvenidos a Gabriela Fotografías</h2>
+        <p>Un espacio dedicado a capturar momentos especiales a través de la fotografía.</p>
+    </section>
+         <section id="productos">
+    <h2>Mis servicios fotográficos</h2>
+    <p>Conocé los servicios que ofrezco.</p>
+
+    <div class="productos-container">
+        <article class="producto">
+            <h3>Fotografía de paisajes</h3>
+         <img src="img/paisaje.jpg" alt="Fotografía de paisaje">   
+            <p>Imágenes de la naturaleza y lugares únicos.</p>
+        </article>
+
+        <article class="producto">
+            <h3>Fotografía de eventos</h3>
+         <img src="img/evento.jpg" alt="Fotografía de evento">   
+            <p>Recuerdos de momentos especiales.</p>
+        </article>
+
+        <article class="producto">
+            <h3>Fotografía de retratos</h3>
+         <img src="img/retrato.jpg" alt="Fotografía de retrato">   
+            <p>Sesiones fotográficas personales.</p>
+        </article>
+    </div>
+</section>
+<section id="resenas">
+    <h2>Reseñas de clientes</h2>
+
+    <div class="resenas-container">
+        <article class="resena">
+            <p>Tu opinión es importante para mí.</p>
+        </article>
+
+        <article class="resena">
+            <p>Próximamente, experiencias de mis clientes.</p>
+        </article>
+    </div>
+</section>
+         <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Consultame por sesiones fotográficas.</p>
+
+    <form action="https://formspree.io/f/xeaerwvg" method="POST"> 
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+</main>
+     
+</body>
+</html>
