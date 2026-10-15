@@ -69,3 +69,20 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+@media (max-width: 600px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  form button {
+    align-self: flex-start;
+  }
+}
